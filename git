@@ -1,0 +1,14 @@
+git init - to create local repo /empty repo 
+git add -  to add files from working to staged /tracked
+git commit - add files to local repo and generates commitID
+git push - to push to local repo to remote repo 
+git clone - clones remote repo to local 
+git chekcout -b branch - to create new branch and switch branch
+git chekcout -d branch - delete branch
+git log - to see commits 
+git show - to see changes in commit 
+git status - to see working tree status
+git restore / git rm --cached - bring files to working area
+git branch -M - modify files
+git remote add origin url 
+config setttings - git config list 
