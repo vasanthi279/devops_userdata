@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "--->Delete the folder"
+rm -fr apache-static-code
+echo "--->clone the folder"
+git clone git@github.com:vasanthi279/apache-static-code.git
+echo "--->Switch to folder"
+cd apache-static-code 
+echo "--->pkg"
+tar -cvzf static-1.tgz *
+echo "--->upload to s3"
+aws s3 cp static-1.tgz s3://artifacts-devops-learn/
